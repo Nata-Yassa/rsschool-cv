@@ -34,6 +34,8 @@ function filter(array) {
     return resultArray;
 }
 ```
+### Project
+[CV](https://Nata-Yassa.github.io/rsschool-cv/cv)
 
 ### Education
 * Belarusian National Technical University
