@@ -2,13 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CV</title>
 </head>
 <body>
-    <img src="/IMG/nata.jpg" alt="">
-    
+    <header class="header">
+        <div class="container">
+            <div class="box">
+                <div><h1 class="title">Natallia Yakauleva</h1></div>
+                <div><img src="IMG/nata.jpg" width="160" alt="my foto"></div>            
+            </div>
+        </div> 
+    </header>
+    <main class="main">
+        <div class="container">
+        <section class="section" id="contact">
+        
+        <h2 class="content-title">My Contact Info:</h2>
+        <ul>
+            <li><b>E-mail: </b>natayassa@gmail.com</li>                
+            <li><b>GitHub: </b><a class="link" href="https://github.com/Nata-Yassa">Nata-Yassa</a></li>
+            <li><b>Telegram: </b><a class="link" href="https://tlgg.ru/@NataYassa">@NataYassa</a></li>
+        </ul>
+        </section>   
+    <section class="section" id="about">
+        <h2 class="content-title">About Me</h2>
+        <p>At the moment, my goal is to master the profession FrontEnd Developer. 
+        In my previous job, I realized that I am not afraid to try new things.
+        With perseverance I seek and study new information necessary in my work.
+        Responsibly I approach tasks. I am sociable and funny.</p>
+    </section>
+    <section class="section" id="skills">
+        <h2 class="content-title">Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+    </section>
+    <section class="section" id="code">
+        <h2 class="content-title">Code Examples</h2>
+        <pre>
+            <code>
+                function filter(array) {
+                
+                    const resultArray = [];
+                
+                    array.forEach(element => {
+                        
+                        if (typeof element === 'number')
+                        {
+                            resultArray.push(element);
+                        }
+                    });
+                
+                    return resultArray;
+                }
+            </code>
+        </pre>
+    </section>
+    <section class="section" id="project">
+        <h2 class="content-title">Project</h2>
+        <ul>
+            <li><a class="link" href="https://Nata-Yassa.github.io/rsschool-cv/cv">CV</a></li>
+        </ul>
+        
+    </section>
+    <section class="section" id="education">
+        <h2 class="content-title">Education</h2>
+        <ul>
+            <li>Belarusian National Technical University
+                <ul>
+                    <li>Technology of materials and components of electronic equipment</li>
+                </ul>
+            </li>
+            <li>Udemy
+                <ul>
+                    <li><a class="link" href="https://www.udemy.com/course/software-manual-testing-web-mobile-api/">Тестирование ПО для начинающих. Web, Mobile, API. (QA/QC)</a></li>
+                </ul>
+            </li>
+            <li>BRAINSCLOUD
+                <ul>
+                    <li><a class="link" href="https://brainscloud.ru/landing/html-css">HTML и CSS с нуля для начинающих</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="section" id="experience">
+        <h2 class="content-title">Experience</h2>
+        <ul>
+            <li>2000-2020 Design engineer (Minsk Motor Plant)</li>
+        </ul>
+    </section>
+    <section class="section" id="lang">
+        <h2 class="content-title">Languages</h2>
+        <ul>
+            <li>Russian</li>
+            <li>Belarusian</li>
+            <li>English - A1</li>
+        </ul>
+    </section>
+  </div> 
+   </main>
+   <footer class="footer">
+    <div class="container">
+        <div class="box">
+            <div><a class="link" href="https://github.com/Nata-Yassa">Nata-Yassa</a></div>
+
+            <div><a class="link" href="https://rs.school/js/">rs.school/js</a></div>
+
+            <div><img src="IMG/rs_school_js.svg" width="150" alt="logo"></div>
+        </div>
+    </div>
+
+
+     </footer>
+
 </body>
+
 </html>
